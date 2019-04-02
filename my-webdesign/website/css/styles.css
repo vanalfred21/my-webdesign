@@ -1,0 +1,368 @@
+/*------------------------------------*\
+RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0b1 | 201101 
+NOTE:WORK IN PROGRESS
+USE WITH CAUTION AND TEST WITH ABANDON */
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+  display:block;
+}
+body{
+  line-height:1;
+}
+ol,ul{
+  list-style:none;
+  display: inline-block;
+}
+blockquote,q{
+  quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+  content:’’;
+  content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+  outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+  text-decoration:none;
+}
+del{
+  text-decoration:line-through;
+}
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* Your Code Goes Here */
+li{
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-image: url(../images/earth_lights.png);
+  background-color: #8a2be2;
+  background-blend-mode: multiply;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 40px;
+  
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  font: bolder;
+}
+
+.logo img{
+  float: left;
+  width: 200px;
+  height: auto;  
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+.menu{
+  max-width: 1300px;
+}
+
+ul li.active a{
+  text-decoration: underline;
+}
+
+.intro{
+  position: absolute;
+  left:15%;
+  top: 30%;
+  transform: translate(-50% -50%);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.intro h1{
+  color: #fff;
+  font-size: 50px;
+}
+.intro h2{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+ul li.sign_up a{
+  border: #fff 1px solid;
+  border-radius: 15px;
+  padding: 10px 25px 10px 25px;
+}
+
+.link{
+  position: absolute;
+  left:41%;
+  top: 60%;
+  transform: translate(-50% -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 1px solid #fff;
+  padding: 15px 20px 15px 20px;
+  border-radius: 15px;
+  background-color: aqua;
+}
+
+.link a{
+  text-decoration: none;
+  color: #fff
+}
+.link img{
+  width: 20px;
+  height: auto;  
+}
+
+.end{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: rgb(26, 23, 23);
+  padding: 60px 60px;
+  opacity: .9;
+}
+
+.end h1{
+  font-size: 40px;
+}
+
+.end p{
+  font-size: 20px;
+}
+
+.end a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 1px solid #fff;
+  padding: 15px 20px 15px 20px;
+  border-radius: 15px;
+  background-color: blueviolet;
+  text-decoration: none;
+  color: #fff;
+}
+
+.summary{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px 60px;
+  background-color: rgb(236, 232, 232);
+}
+
+.summary h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+
+.summary table{
+  width: 1200px;
+}
+
+.summary table h2{
+  font-size: 20px;
+  color: rgb(79, 81, 83);
+}
+
+.summary table h4{
+  font-size: 15px;
+  padding-top: 5%;
+  color: rgb(155, 153, 153);
+}
+
+.about{
+  background-color: rgb(245, 243, 240);
+  
+}
+
+.cust{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.cust img{
+  width: 550px;
+  height: auto;
+}
+
+.cust h2{
+  padding-top: 15%;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.cust h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(79, 81, 83);
+}
+
+.left{
+  padding-left: 700px;
+}
+
+.forum{
+  background-color: rgb(243, 237, 237);
+  padding: 60px 130px 60px 130px;
+}
+
+.fb_icon{
+  float: right;
+  width: 10px;
+  height: auto;  
+  border: #fff 1px solid;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px 0px 0px 20px;
+  background: blue;
+  
+}
+
+.h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 0px 20px 20px 0px;
+  border: #fff 1px solid;
+  float:right;
+  background-color: blue;
+  color: #fff;
+  
+}
+
+.insta_icon{
+  float: right;
+  width: 20px;
+  height: auto;  
+  border: #fff 1px solid;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px 0px 0px 20px;
+  background: blueviolet;
+  left: 300px;
+  margin-left: 50px;
+}
+
+.h2_1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px 20px 20px 0px;
+    border: #fff 1px solid;
+    float:right;
+    background-color: blueviolet;
+    color: #fff;
+    margin-right: 70px;
+}
+
+.forum h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  float: left;
+}
+
+
+.forum h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.contact{
+  background-color: black;
+  color: #fff;
+  padding: 60px 130px 60px 130px;
+  opacity: 0.8;
+}
+
+.contact h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  
+}
+
+.contact h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  float: left;
+  padding-right: 80px;
+}
+.contact h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  float: left;
+  padding-right: 70px;
+  color: blue;
+}
+
+.contact h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  float: left;
+  padding-right: 70px;
+}
+
+.contact img {
+  float: left;
+  width: 200px;
+  height: auto;  
+  
+}
+
+.contact h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  float: right;
+  padding-right: 70px;
+  color: gray;
+  padding-top: 20px;
+  padding-right: 270px;
+}
